@@ -2,7 +2,7 @@ import { generate_name } from './main.js'
 import adjectives from './data/adjectives.js'
 import nouns from './data/nouns.js'
 
-it('should uses an adjective and a noun from the selected data.', () => {
+it('should use an adjective and a noun from the selected data.', () => {
   const name = generate_name()
   const adjective = name.split(' ')[0]
   const noun = name.split(' ')[1]
