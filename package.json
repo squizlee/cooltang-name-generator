@@ -4,7 +4,8 @@
   "description": "Randomly generate some names inspired by the classic wutang name generator, but make it a library",
   "main": "main.js",
   "scripts": {
-    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "lint": "prettier --write ."
   },
   "keywords": [],
   "author": "",
